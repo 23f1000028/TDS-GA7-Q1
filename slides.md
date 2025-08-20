@@ -1,82 +1,76 @@
 ---
 marp: true
+title: Product Documentation with Marp
+author: Krishna (23f1000028@ds.study.iitm.ac.in)
 theme: gaia
 paginate: true
-size: 16:9
 ---
 
-<!-- Custom theme definition -->
-<style>
-section {
-  font-family: "Helvetica", sans-serif;
-}
-h1 {
-  color: #004aad;
-  text-align: center;
-}
-h2 {
-  color: #007acc;
-}
-footer {
-  font-size: 14px;
-  text-align: right;
-  color: #666;
-}
-</style>
-
-<!-- Footer with email -->
-<footer>23f1000028@ds.study.iitm.ac.in</footer>
-
-# 📘 Product Documentation Presentation
-### A Technical Writing Example with Marp
+<!-- _class: lead -->
+# 📘 Product Documentation with Marp
+**Krishna**  
+`23f1000028@ds.study.iitm.ac.in`
 
 ---
 
-## ✨ Features of this Documentation
+## Why Marp?
 
-- Version-controlled in GitHub  
-- Convertible to **PDF, PPTX, HTML**  
-- Custom Marp theme styling  
-- Includes page numbers & background images  
-- Math equations for algorithm complexity  
+- Write once in Markdown
+- Convert to **HTML, PDF, PPTX, or Images**
+- Easy to maintain in **Git + GitHub**
+- Perfect for **developer-friendly documentation**
 
 ---
 
-## ⚡ Algorithmic Complexity
+<!-- _backgroundColor: #123456 -->
+<!-- _color: white -->
+# Custom Theme Slide
 
-The **time complexity** of binary search is:  
+This slide uses a **custom background color** and **white text**.
+
+---
+
+<!-- _header: "Product Architecture" -->
+<!-- _footer: "TDS-GA7-Q1 | Krishna" -->
+# System Design Overview
+
+- Modular architecture  
+- Extensible API layer  
+- Supports multiple export formats  
+
+---
+
+<!-- Background image -->
+![bg cover](images/background.jpg)
+
+# Background Image Example
+Slides can use **full-cover images** as visual backdrops.
+
+---
+
+## Algorithmic Complexity
+
+Inline math: $O(n^2)$
+
+Block math:
 
 $$
-T(n) = O(\log n)
-$$  
-
-The **time complexity** of quicksort (average case) is:  
-
+T(n) = T(n-1) + O(1) \implies O(n)
 $$
-T(n) = O(n \log n)
-$$  
 
 ---
 
-## 🌄 Slide with Background Image
+## Best Practices
 
-![bg](https://images.unsplash.com/photo-1526378722484-cc5c510fb0b7?auto=format&fit=crop&w=1350&q=80)
-
-# Software Documentation Workflow
-
----
-
-## 🛠 Workflow
-
-1. **Write in Markdown (Marp flavored)**  
-2. **Store in GitHub** (version controlled)  
-3. Export to:  
-   - PDF  
-   - HTML  
-   - PPTX  
+1. Keep slides **minimal and focused**
+2. Use **consistent styles**
+3. Optimize images before including
+4. Test in **all export formats**
 
 ---
 
-# ✅ Thank You!
-### Questions?  
-📧 23f1000028@ds.study.iitm.ac.in
+# Thank You 🎉
+
+📧 `23f1000028@ds.study.iitm.ac.in`
+
+---
